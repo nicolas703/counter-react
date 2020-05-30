@@ -14,6 +14,8 @@ let Num4=0;
 let Num5=0;
 let Num6=0;
 
+const esto=":";
+
 setInterval(()=>{
     
     if(Counter===false){
@@ -49,7 +51,7 @@ setInterval(()=>{
             <ul className="list-group list-group-horizontal-md clocket">
 
                 <li className="list-group-item clockit"><i class="fas fa-stopwatch"></i></li>
-                <Bases nu6={Num6}  nu5={Num5} nu4={Num4} nu3={Num3} nu2={Num2}nu1={Num1}/>
+                <Bases pun={esto} nu6={Num6}  nu5={Num5} nu4={Num4} nu3={Num3} nu2={Num2}nu1={Num1}/>
             </ul>
         </>,
   document.getElementById('root')

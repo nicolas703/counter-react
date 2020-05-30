@@ -7,8 +7,10 @@ function Base(props){
     <>  
         <li className="list-group-item clockit">{props.nu1}</li>
         <li className="list-group-item clockit">{props.nu2}</li>
+        <li className="list-group-item clockit">{props.pun}</li>
         <li className="list-group-item clockit">{props.nu3}</li>
         <li className="list-group-item clockit">{props.nu4}</li>
+        <li className="list-group-item clockit">{props.pun}</li>
         <li className="list-group-item clockit">{props.nu5}</li>
         <li className="list-group-item clockit">{props.nu6}</li>
     </>
