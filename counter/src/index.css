@@ -1,0 +1,11 @@
+.clocket{
+    background-color: black;
+    justify-content: center;
+}
+
+.clockit{
+    color: rgb(156, 147, 147);
+    background-color: black;
+    border:hsl(30, 3%, 37%);
+    border-style: solid;
+}
